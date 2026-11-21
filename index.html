@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>မင်း ဘယ်လောက် Racist လဲ?</title>
+<meta name="description" content="မေးခွန်း ၁၅ ခု၊ ၂ မိနစ်။ မင်း ဘယ်လောက် Racist ဖြစ်နေလဲ စမ်းကြည့်လိုက်! 🕊️ ကနေ ☠️ FASCIST အထိ">
+<meta property="og:type" content="website">
+<meta property="og:title" content="မင်း ဘယ်လောက် Racist လဲ? 🤔">
+<meta property="og:description" content="မေးခွန်း ၁၅ ခု၊ ၂ မိနစ်။ 🕊️ ငြိမ်းချမ်းရေး သံတမန် လား၊ ☠️ FASCIST လား? စမ်းကြည့်ပြီး screenshot တင်လိုက်!">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#FFD84D">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A4%94%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Noto+Sans+Myanmar:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Layout: one phone-width column of sticker cards (thick ink border + hard shadow) floating over a dotted sky of drifting emoji. */
+  --sun:#FFD84D;
+  --ink:#141414;
+  --paper:#FFFFFF;
+  --pink:#FF5FA2;
+  --pinkdeep:#C8186A;
+  --teal:#12A898;
+  --soft:#5E5745;
+  --bg:var(--sun);
+  --tier:#FFC21A;
+  --tier-ink:#141414;
+  --shadow:#141414;
+  --onbg:#141414;
+  --display:'Bungee','Noto Sans Myanmar','Myanmar Text','Arial Black',sans-serif;
+  --body:'Noto Sans Myanmar','Myanmar Text','Pyidaungsu','Padauk',system-ui,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{
+  font-family:var(--body);
+  color:var(--ink);
+  background-color:var(--bg);
+  background-image:radial-gradient(rgba(20,20,20,.10) 1.6px, transparent 1.8px);
+  background-size:22px 22px;
+  line-height:1.75;
+  transition:background-color .6s ease;
+  overflow-x:hidden;
+}
+body[data-tier="t0"]{--bg:#8BE59C;--tier:#2ECC71}
+body[data-tier="t1"]{--bg:#A5E6F2;--tier:#3CC7E0}
+body[data-tier="t2"]{--bg:#FFD84D;--tier:#FFC21A}
+body[data-tier="t3"]{--bg:#FFB866;--tier:#FF8A1F}
+body[data-tier="t4"]{--bg:#FF8A8A;--tier:#D62828;--tier-ink:#FFFFFF}
+body[data-tier="t5"]{--bg:#1A0505;--tier:#111111;--tier-ink:#FFFFFF;--shadow:#FF3B3B;--onbg:#FFFFFF;
+  background-image:radial-gradient(rgba(255,59,59,.25) 1.6px, transparent 1.8px)}
+
+/* drifting emoji sky */
+.sky{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+.sky span{position:absolute;bottom:-70px;font-size:var(--s,32px);opacity:.5;animation:drift var(--d,18s) linear infinite;animation-delay:var(--delay,0s)}
+body[data-tier="t5"] .sky span{opacity:.25}
+@keyframes drift{from{transform:translateY(0) rotate(0)}to{transform:translateY(-125vh) rotate(var(--r,180deg))}}
+
+main{position:relative;z-index:1;max-width:500px;margin:0 auto;padding:22px 16px 40px;min-height:100%;display:flex;flex-direction:column;justify-content:center}
+.screen{display:none}
+.screen.on{display:block;animation:pop .35s ease}
+@keyframes pop{from{transform:scale(.96);opacity:.5}to{transform:none;opacity:1}}
+.sticker{background:var(--paper);border:3px solid var(--ink);border-radius:20px;box-shadow:6px 6px 0 var(--shadow)}
+:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+
+/* start */
+.start{padding:30px 22px 24px;text-align:center;position:relative}
+.badge{position:absolute;top:-16px;right:-6px;background:var(--pink);color:var(--ink);border:3px solid var(--ink);border-radius:999px;padding:2px 14px;font-weight:900;font-size:15px;transform:rotate(8deg);box-shadow:3px 3px 0 var(--ink)}
+.kicker{font-size:clamp(22px,6.4vw,30px);font-weight:900;margin:0;line-height:1.7}
+.big{font-family:var(--display);font-weight:400;font-size:clamp(62px,18vw,100px);line-height:1.02;margin:4px 0 6px;color:var(--pink);-webkit-text-stroke:3px var(--ink);text-shadow:5px 5px 0 var(--ink);letter-spacing:1px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:16px 0 8px}
+.chips span,.chip{display:inline-flex;align-items:center;gap:4px;border:2px solid var(--ink);border-radius:999px;padding:1px 12px;font-size:14px;font-weight:700;background:#fff;line-height:1.9}
+.chips span:nth-child(1),.chip[data-cat="racist"]{background:#FFE0EE}
+.chips span:nth-child(2),.chip[data-cat="islam"]{background:#D3F5F0}
+.chips span:nth-child(3),.chip[data-cat="minority"]{background:#FFF0B0}
+.lede{color:var(--soft);margin:8px auto 18px;max-width:32ch;font-size:16px}
+label{display:block;text-align:left;font-weight:700;font-size:15px;margin-bottom:6px}
+input{width:100%;font:inherit;font-size:17px;padding:10px 14px;border:3px solid var(--ink);border-radius:14px;background:#FFFBEA;margin-bottom:16px;color:var(--ink)}
+input:focus-visible{outline:none;box-shadow:0 0 0 4px var(--teal)}
+.btn{font:inherit;font-weight:900;font-size:19px;line-height:1.6;padding:12px 18px;border:3px solid var(--ink);border-radius:16px;background:#fff;color:var(--ink);box-shadow:4px 4px 0 var(--shadow);cursor:pointer;transition:transform .08s, box-shadow .08s;width:100%}
+.btn:hover{background:#FFF6CC}
+.btn.primary{background:var(--pink)}
+.btn.primary:hover{background:#FF7DB4}
+.btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--shadow)}
+.fine{font-size:13px;color:var(--onbg);opacity:.75;text-align:center;margin:18px auto 0;max-width:40ch}
+
+/* quiz */
+.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.ghost{font:inherit;font-weight:700;font-size:15px;background:#fff;border:2px solid var(--ink);border-radius:999px;padding:2px 14px;cursor:pointer;color:var(--ink)}
+.count{font-family:var(--display);font-size:18px}
+.bar{height:16px;border:3px solid var(--ink);border-radius:999px;background:#fff;overflow:hidden;margin-bottom:16px}
+.bar i{display:block;height:100%;background:var(--pink);width:0;transition:width .35s ease}
+.qcard{padding:20px 18px 18px}
+.art{font-size:54px;line-height:1.25;text-align:center;letter-spacing:6px;margin-bottom:6px}
+.qhead{text-align:center}
+.qcard h2{font-size:clamp(18px,5vw,21px);font-weight:700;line-height:1.8;margin:10px 0 16px;text-wrap:balance}
+.opts{display:grid;gap:10px}
+.opt{display:flex;gap:12px;align-items:center;text-align:left;font:inherit;font-size:16px;line-height:1.65;padding:10px 14px;border:3px solid var(--ink);border-radius:14px;background:#fff;color:var(--ink);cursor:pointer;box-shadow:3px 3px 0 var(--ink);transition:transform .08s, background .15s, box-shadow .08s}
+.opt:hover{background:#FFF6CC}
+.opt:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.opt.picked{background:#BDF3EC;transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.ltr{flex:none;width:34px;height:34px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;font-weight:900;background:#FFE0EE;line-height:1}
+.opt.picked .ltr{background:var(--teal);color:#fff}
+
+/* loading */
+.loadcard{padding:44px 22px;text-align:center}
+.spin{font-size:66px;display:inline-block;animation:wob .55s ease-in-out infinite alternate}
+@keyframes wob{from{transform:rotate(-14deg)}to{transform:rotate(14deg) scale(1.1)}}
+#loadMsg{font-weight:700;font-size:18px;min-height:3.6em;margin:16px 0 0}
+
+/* result */
+.alerttape{overflow:hidden;background:#141414;border:3px solid #FFD400;border-radius:10px;margin-bottom:14px}
+.alerttape div{white-space:nowrap;display:inline-block;color:#FFD400;font-family:var(--display);font-size:14px;padding:4px 0;animation:marq 14s linear infinite}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.card{overflow:hidden}
+.hero{background:var(--tier);color:var(--tier-ink);padding:14px 16px 8px;text-align:center;border-bottom:3px solid var(--ink)}
+body[data-tier="t5"] .hero{background:repeating-linear-gradient(45deg,#111 0 14px,#221010 14px 28px)}
+.who{margin:0;font-weight:900;font-size:18px;line-height:1.7}
+.meter{font-family:var(--display);font-size:11px;letter-spacing:2px;opacity:.75;margin:0}
+#gauge{display:block;width:min(100%,270px);margin:2px auto 0;color:var(--tier-ink);overflow:visible}
+.pct{font-family:var(--display);font-size:54px;line-height:1.15;margin:0;font-variant-numeric:tabular-nums}
+.cbody{padding:14px 18px 4px}
+.verdict{display:flex;gap:12px;align-items:center}
+.vemoji{font-size:50px;line-height:1;flex:none}
+.ven{font-family:var(--display);font-size:13px;letter-spacing:1px;margin:0;color:var(--pinkdeep);line-height:1.4}
+.verdict h2{margin:0;font-size:21px;font-weight:900;line-height:1.7;text-wrap:balance}
+#vDesc{font-size:15px;margin:8px 0 12px}
+.subs{display:grid;gap:6px;margin-bottom:14px}
+.sub{display:grid;grid-template-columns:132px 1fr 50px;gap:8px;align-items:center;font-size:14px;font-weight:700}
+.st{height:14px;border:2px solid var(--ink);border-radius:999px;overflow:hidden;background:#F1EEE3}
+.st i{display:block;height:100%;width:0;transition:width 1.2s ease .3s}
+.sv{text-align:right;font-family:var(--display);font-size:14px}
+.rx{background:#FFF6CC;border:2px dashed var(--ink);border-radius:12px;padding:8px 12px;font-size:14.5px}
+.rx b{display:block}
+.cardfoot{display:flex;justify-content:space-between;gap:8px;padding:10px 18px 12px;font-size:13px;font-weight:700;color:var(--soft);flex-wrap:wrap}
+.snap{text-align:center;font-weight:700;margin:18px 0 12px;color:var(--onbg)}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.actions .btn{font-size:16px}
+.capbox{background:#fff;border:2px dashed var(--ink);border-radius:12px;padding:10px 12px;margin:12px 0 0;font-size:14px;user-select:all}
+.confetti{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:5}
+.shake{animation:shake .6s ease 1.5s 1}
+@keyframes shake{0%,100%{transform:none}20%{transform:translateX(-8px) rotate(-1deg)}40%{transform:translateX(8px) rotate(1deg)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}
+
+@media (max-width:380px){
+  .actions{grid-template-columns:1fr}
+  .sub{grid-template-columns:118px 1fr 46px;font-size:13px}
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none !important;transition:none !important}
+}
+</style>
+</head>
+<body>
+<div class="sky" id="sky" aria-hidden="true"></div>
+<main>
+
+  <!-- START -->
+  <section id="start" class="screen on" aria-labelledby="t-start">
+    <div class="sticker start">
+      <span class="badge">၂ မိနစ် ⏱️</span>
+      <p class="kicker">မင်း ဘယ်လောက်</p>
+      <h1 class="big" id="t-start">RACIST</h1>
+      <p class="kicker">ဖြစ်နေလဲ? 🤔</p>
+      <div class="chips"><span>🎨 Racist</span><span>🕌 Anti-Islam</span><span>🏔️ Anti-Minority</span></div>
+      <p class="lede">မေးခွန်း ၁၅ ခု။ ရိုးရိုးသားသား ဖြေပါ၊ ဘယ်သူမှ မသိပါဘူး... မင်း screenshot မတင်မချင်းပေါ့ 😏</p>
+      <label for="name">မင်းနာမည် (မထည့်လည်း ရတယ်)</label>
+      <input id="name" maxlength="24" placeholder="ဥပမာ - မောင်မောင်" autocomplete="off">
+      <button id="go" class="btn primary" type="button">စစ်ဆေးမယ် 🚀</button>
+    </div>
+    <p class="fine">ဟာသနဲ့ သတိပေးချက်အတွက် ဖန်တီးထားတာပါ။ သိပ္ပံနည်းကျ စစ်ဆေးမှု မဟုတ်ပါ။</p>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz" class="screen" aria-live="polite">
+    <div class="topbar">
+      <button id="back" class="ghost" type="button">← နောက်သို့</button>
+      <span id="count" class="count">၁ / ၁၅</span>
+    </div>
+    <div class="bar" aria-hidden="true"><i id="barFill"></i></div>
+    <div class="sticker qcard">
+      <div id="art" class="art" aria-hidden="true"></div>
+      <div class="qhead"><span id="cat" class="chip"></span></div>
+      <h2 id="qtext"></h2>
+      <div id="opts" class="opts"></div>
+    </div>
+  </section>
+
+  <!-- LOADING -->
+  <section id="loading" class="screen" aria-live="polite">
+    <div class="sticker loadcard">
+      <div class="spin" aria-hidden="true">🧪</div>
+      <p id="loadMsg"></p>
+    </div>
+  </section>
+
+  <!-- RESULT -->
+  <section id="result" class="screen">
+    <div id="alertTape" class="alerttape" hidden aria-hidden="true"><div>⚠️ FASCIST ALERT ⚠️ ဖက်ဆစ် သတိပေးချက် ⚠️ FASCIST ALERT ⚠️ ဖက်ဆစ် သတိပေးချက် ⚠️ FASCIST ALERT ⚠️ ဖက်ဆစ် သတိပေးချက် ⚠️ FASCIST ALERT ⚠️ ဖက်ဆစ် သတိပေးချက် ⚠️&nbsp;</div></div>
+    <article class="sticker card" id="card">
+      <header class="hero">
+        <p id="who" class="who">မင်းရဲ့ Racist ရမှတ်</p>
+        <p class="meter">RACIST-O-METER</p>
+        <svg id="gauge" viewBox="0 0 240 150" role="img" aria-label="Racist meter">
+          <g id="segs"></g>
+          <text x="22" y="148" font-size="16" text-anchor="middle">😇</text>
+          <text x="218" y="148" font-size="16" text-anchor="middle">☠️</text>
+          <g id="needle" transform="rotate(-90 120 120)">
+            <path d="M113 120 L120 36 L127 120 Z" fill="currentColor" stroke="#141414" stroke-width="2" stroke-linejoin="round"/>
+            <circle cx="120" cy="120" r="11" fill="currentColor" stroke="#141414" stroke-width="3"/>
+          </g>
+        </svg>
+        <p id="pct" class="pct">၀%</p>
+      </header>
+      <div class="cbody">
+        <div class="verdict">
+          <span id="vEmoji" class="vemoji" aria-hidden="true"></span>
+          <div><p id="vEn" class="ven"></p><h2 id="vTitle"></h2></div>
+        </div>
+        <p id="vDesc"></p>
+        <div class="subs" id="subs"></div>
+        <div class="rx"><b>💊 ဆေးညွှန်း</b><span id="vRx"></span></div>
+      </div>
+      <footer class="cardfoot"><span>#RacistQuiz</span><span>မင်းရော ဘယ်လောက်လဲ? 👀</span></footer>
+    </article>
+    <p class="snap">📸 Screenshot ရိုက်ပြီး သူငယ်ချင်းတွေကို tag လိုက်ပါ!</p>
+    <div class="actions">
+      <button id="copy" class="btn" type="button">📋 Caption ကူးမယ်</button>
+      <button id="again" class="btn primary" type="button">🔄 ပြန်ဖြေမယ်</button>
+    </div>
+    <p id="capBox" class="capbox" hidden></p>
+  </section>
+
+</main>
+
+<script>
+(function(){
+  var MY = '၀၁၂၃၄၅၆၇၈၉';
+  function my(n){ return String(n).replace(/[0-9]/g, function(d){ return MY[d]; }); }
+  var reduce = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  function $(id){ return document.getElementById(id); }
+
+  var CATS = { racist:'🎨 Racist', islam:'🕌 Anti-Islam', minority:'🏔️ Anti-Minority' };
+  var LETTERS = ['က','ခ','ဂ','ဃ'];
+
+  // Each answer list is in score order: index 0 = 0 points ... index 3 = 3 points. Options are shuffled on screen.
+  var Q = [
+    { cat:'islam', art:'🏠🧕👋',
+      q:'မင်းအိမ်ဘေးကို မိသားစုအသစ် တစ်စု ပြောင်းလာတယ်။ သူတို့က မွတ်စလင်တွေ။ မင်း ဘာလုပ်မလဲ?',
+      a:['မုန့်လေး လက်ဆောင်ယူပြီး သွားနှုတ်ဆက်မယ် 🍰',
+         'တွေ့ရင် ပြုံးပြမယ်၊ ပုံမှန်ပါပဲ',
+         'ရပါတယ်၊ ဒါပေမယ့် တံခါးကို သေချာ သော့ခတ်မယ် 🔒',
+         'အိမ်ပြောင်းဖို့ အိမ်ပွဲစားဆီ ဖုန်းဆက်မယ် 📞'] },
+    { cat:'minority', art:'🏫🗣️',
+      q:'ကျောင်းမှာ ကချင်ကျောင်းသား နှစ်ယောက်က ကချင်ဘာသာစကားနဲ့ စကားပြောနေကြတယ်။',
+      a:['စိတ်ဝင်စားလို့ စကားလုံး တချို့ သင်ပေးဖို့ ပြောမယ် 😄',
+         'ဘာမှ မထူးဆန်းပါဘူး',
+         'ငါ့အကြောင်း အတင်းပြောနေတာ ဖြစ်မယ် 🤨',
+         '“ဒါ မြန်မာပြည်၊ ဗမာလို ပြော” လို့ ပြောမယ်'] },
+    { cat:'racist', art:'🎤🤣',
+      q:'သူငယ်ချင်းဝိုင်းထဲမှာ တစ်ယောက်က လူမျိုးရေး ဟာသ (racist joke) တစ်ခု ပြောလိုက်တယ်။',
+      a:['မရယ်ဘူး၊ “အဲဒါ မရယ်ရဘူး” လို့ ပြောမယ်',
+         'အားနာလို့ ပြုံးပြလိုက်တယ် 😅',
+         'ရယ်ရရင် ရယ်တာပဲလေ 🤣',
+         'ငါ့မှာ ဒီထက်ဆိုးတဲ့ ဟာသ ရှိတယ်၊ ဆက်ပြောမယ် 👑'] },
+    { cat:'islam', art:'🍗🍛🤤',
+      q:'ကြက်သား ဒံပေါက် အရမ်း စားချင်နေပြီ။ အနီးဆုံး၊ အကောင်းဆုံး ဆိုင်က မွတ်စလင်ဆိုင်။',
+      a:['ဒံပေါက်က ဒံပေါက်ပဲ၊ သွားစားမယ် 🍗',
+         'Delivery နဲ့ မှာစားမယ်၊ ဆိုင်ထဲတော့ မဝင်ချင်ဘူး 🛵',
+         'ဗမာဆိုင် ရှာပြီး ဝေးဝေး သွားစားမယ်',
+         'ငတ်လည်း ငတ်ပါစေ၊ မစားဘူး 😤'] },
+    { cat:'minority', art:'🏷️🤔',
+      q:'“ရိုဟင်ဂျာ” ဆိုတဲ့ နာမည်နဲ့ ပတ်သက်ပြီး မင်းအမြင်က?',
+      a:['လူတိုင်းကို သူတို့ ခေါ်စေချင်တဲ့ နာမည်နဲ့ ခေါ်ရမယ်',
+         'သိပ်မသိဘူး၊ လေ့လာဖို့ လိုသေးတယ်',
+         '“ဘင်္ဂါလီ” လို့ပဲ ခေါ်သင့်တယ်',
+         'နာမည် မပြောနဲ့၊ ဒီလူတွေ ဒီမှာ မရှိသင့်ဘူး'] },
+    { cat:'racist', art:'🗯️🤐',
+      q:'တောင်အာရှ နွယ်ဖွား မြန်မာနိုင်ငံသားတွေကို တချို့က နှိမ့်ချတဲ့ နာမည်ပြောင်နဲ့ ခေါ်ကြတယ် (ဘယ်စကားလုံးလဲ မင်းသိပါတယ် 😉)။ မင်းရော?',
+      a:['ဘယ်တော့မှ မခေါ်ဘူး၊ တခြားသူ ခေါ်ရင်လည်း ပြင်ပေးတယ်',
+         'ကိုယ်တိုင် မခေါ်ဘူး၊ ဒါပေမယ့် တခြားသူ ခေါ်ရင် ဘာမှ မပြောဖြစ်ဘူး',
+         'ပါးစပ်ကျိုးနေလို့ တခါတလေ ထွက်သွားတတ်တယ် 🫢',
+         'အဲဒါ ဆဲစကားမှ မဟုတ်တာ၊ အမြဲ ခေါ်တယ်'] },
+    { cat:'islam', art:'💍💐',
+      q:'မင်းရဲ့ မောင်နှမ တစ်ယောက်က မွတ်စလင် တစ်ယောက်နဲ့ လက်ထပ်မယ်တဲ့။',
+      a:['ချစ်ကြရင် ပြီးတာပဲ၊ မင်္ဂလာပါ 💐',
+         'စိုးရိမ်တော့ စိုးရိမ်တယ်၊ ဒါပေမယ့် သူ့ဘဝ သူ့ဆုံးဖြတ်ချက်',
+         'အသေအလဲ တားမယ်',
+         'အိမ်က နှင်ထုတ်မယ်၊ ဥပဒေနဲ့ပါ တားမယ် ⚖️'] },
+    { cat:'minority', art:'💼📄📄',
+      q:'မင်းက အလုပ်ရှင်။ အရည်အချင်း တူတူ လျှောက်ထားသူ ၂ ယောက် ရှိတယ်။ တစ်ယောက်က ဗမာ ဗုဒ္ဓဘာသာ၊ တစ်ယောက်က ချင်း ခရစ်ယာန်။',
+      a:['Interview မှာ ပိုတော်တဲ့သူကို ရွေးမယ်',
+         'ရုံးက လူအများစုနဲ့ “အဆင်ပြေမယ့်” သူကို ရွေးမယ်',
+         'ဗမာ ဗုဒ္ဓဘာသာကိုပဲ ရွေးမယ်၊ ဆက်ဆံရ လွယ်လို့',
+         'ခရစ်ယာန် ဆိုတာနဲ့ CV ကို အမှိုက်ပုံးထဲ ထည့်မယ် 🗑️'] },
+    { cat:'racist', art:'🎨🤎',
+      q:'အသားညိုတဲ့ သူငယ်ချင်းကို “မည်းမည်း” လို့ နာမည်ပြောင် ခေါ်တာ ဘယ်လိုထင်လဲ?',
+      a:['မကောင်းဘူး၊ သူ့နာမည် အရင်းနဲ့ပဲ ခေါ်မယ်',
+         'သူကိုယ်တိုင် ကြိုက်တယ်ဆိုရင်တော့ ရပါတယ်',
+         'နောက်တာပဲလေ၊ စိတ်ဆိုးရင် သူ့ပြဿနာ',
+         'အသားဖြူမှ လှတာ၊ အမှန်ကို ပြောတာပဲ 💅'] },
+    { cat:'islam', art:'🕌🏗️',
+      q:'မင်းရပ်ကွက်ထဲမှာ ဗလီ အသစ်တစ်ခု ဆောက်ဖို့ ခွင့်ပြုချက် ရသွားတယ်။',
+      a:['ဘာသာရေး လွတ်လပ်ခွင့်ပဲ၊ ကိစ္စမရှိဘူး',
+         'ဆူညံမှာ၊ လမ်းကျပ်မှာတော့ နည်းနည်း စိုးရိမ်တယ်',
+         'တခြား ရပ်ကွက်မှာ ဆောက်ပါစေ',
+         'ရပ်ကွက်လူတွေ စုပြီး ဆန္ဒပြ တားမယ် ✊'] },
+    { cat:'minority', art:'🪪👶',
+      q:'မြန်မာပြည်မှာ မွေး၊ ဒီမှာပဲ ကြီးပြင်းလာတဲ့ လူတစ်ယောက်ဟာ...',
+      a:['ဘာသာ၊ လူမျိုး မရွေး နိုင်ငံသား အပြည့်အဝ ဖြစ်သင့်တယ်',
+         'စည်းကမ်းချက် တချို့နဲ့တော့ ဖြစ်သင့်တယ်',
+         'သူ့လူမျိုး၊ ဘာသာကို ကြည့်ပြီးမှ ဆုံးဖြတ်သင့်တယ်',
+         '“တိုင်းရင်းသား ၁၃၅ မျိုး” ထဲ မပါရင် ဧည့်သည်ပဲ'] },
+    { cat:'racist', art:'📱🔥',
+      q:'Facebook မှာ လူမျိုးတစ်မျိုးကို မုန်းတီးအောင် လှုံ့ဆော်တဲ့ ပို့စ်တစ်ခု viral ဖြစ်နေတယ်။',
+      a:['Report လုပ်ပြီး ကျော်သွားမယ် 🚩',
+         'ဘာမှ မလုပ်ဘဲ scroll ဆက်ဆွဲမယ်',
+         '😂 react လုပ်ပြီး comment တွေ ထိုင်ဖတ်မယ်',
+         'Share ပြီး ကိုယ့်အမြင်ပါ ထပ်ဖြည့်ရေးမယ် 📢'] },
+    { cat:'islam', art:'📈😱',
+      q:'“မွတ်စလင်တွေ ကလေးအများကြီး မွေးပြီး တစ်နေ့ မြန်မာပြည်ကို သိမ်းပိုက်လိမ့်မယ်” ဆိုတဲ့ စကားကို...',
+      a:['အခြေအမြစ် မရှိတဲ့ ကောလာဟလပါ',
+         'မသေချာဘူး၊ ကိန်းဂဏန်း မကြည့်ဖူးဘူး',
+         'နည်းနည်းတော့ ဟုတ်မယ် ထင်တယ်',
+         '၁၀၀% မှန်တယ်၊ ငါတို့ လူမျိုး ပျောက်တော့မယ် 😱'] },
+    { cat:'minority', art:'⛺🧒',
+      q:'ဒုက္ခသည်စခန်းထဲက ရိုဟင်ဂျာ ကလေးငယ်တွေရဲ့ ဓာတ်ပုံတွေကို မြင်ရတဲ့အခါ...',
+      a:['ရင်နာတယ်၊ တတ်နိုင်သလောက် ကူညီချင်တယ် 💔',
+         'သနားတော့ သနားတယ်၊ ဒါပေမယ့် ငါနဲ့ မဆိုင်ဘူး',
+         'Fake news ဖြစ်မှာပါ၊ ဓာတ်ပုံ ပြင်ထားတာ',
+         'သူတို့ ပြန်မလာရင် ပြီးရော'] },
+    { cat:'racist', art:'👫🌏',
+      q:'မင်းရဲ့ အရင်းနှီးဆုံး သူငယ်ချင်းတွေထဲမှာ တခြား လူမျိုး၊ တခြား ဘာသာက လူ ပါလား?',
+      a:['ပါတယ်၊ ညီအစ်ကို မောင်နှမလို ခင်တယ် 🤝',
+         'မပါသေးဘူး၊ ဒါပေမယ့် ရှိလာရင် ပျော်မှာပဲ',
+         'တစ်ယောက်ပါတယ်၊ “သူကတော့ တခြားကောင်တွေနဲ့ မတူဘူး” 🙃',
+         'မပါဘူး၊ ပါလည်း မလိုချင်ဘူး'] }
+  ];
+
+  var TIERS = [
+    { max:10, key:'t0', emoji:'🕊️', en:'PEACE AMBASSADOR', title:'ငြိမ်းချမ်းရေး သံတမန်',
+      desc:'မင်းနှလုံးသားက ဒံပေါက်ထက်တောင် ပိုနွေးတယ် 🔥 လူမျိုး၊ ဘာသာ မခွဲခြားဘဲ လူကို လူလို မြင်တတ်တယ်။ မြန်မာပြည်က မင်းလိုလူ သိန်းချီ လိုအပ်နေတယ်။',
+      rx:'ဒီ quiz ကို လက်ဖက်ရည်ဆိုင်က ဦးလေးတွေဆီ ပို့ပေးလိုက်ပါ 😏' },
+    { max:30, key:'t1', emoji:'😇', en:'GOOD HEART', title:'စိတ်ကောင်းရှိသူ',
+      desc:'Bias လေး နည်းနည်းတော့ ရှိတယ်၊ လူတိုင်းမှာ ရှိတတ်ပါတယ်။ ဒါပေမယ့် မင်းက သင်ယူဖို့ အသင့်ရှိတဲ့သူ၊ မျှော်လင့်ချက် အပြည့်ပဲ ✨',
+      rx:'နောက်တခါ racist ဟာသ ကြားရင် မရယ်ဘဲ “အဲဒါ မရယ်ရဘူး” လို့ ပြောကြည့်ပါ။' },
+    { max:50, key:'t2', emoji:'🤨', en:'NOT RACIST, BUT...', title:'“ငါ Racist မဟုတ်ပါဘူး... ဒါပေမယ့်”',
+      desc:'မင်းစကားတွေက “ဒါပေမယ့်” နဲ့ ဆုံးတတ်တယ်။ ကိုယ့်ကိုယ်ကို သဘောထားကြီးတယ် ထင်ပေမယ့် အထဲမှာ အမြင်ကျဉ်းလေးတွေ ပုန်းနေတယ် 🙈',
+      rx:'တခြားဘာသာ သူငယ်ချင်းနဲ့ ဒံပေါက်တစ်ပွဲ သွားစားပြီး သူ့ဘဝအကြောင်း နားထောင်ကြည့်ပါ 🍗' },
+    { max:70, key:'t3', emoji:'☕', en:'TEA SHOP RACIST', title:'လက်ဖက်ရည်ဆိုင် Racist',
+      desc:'လက်ဖက်ရည် တစ်ခွက်နဲ့ “ဒီကောင်တွေ” အကြောင်း တစ်နာရီလောက် ပြောနိုင်တယ်။ Facebook ကောလာဟလတွေကို သတင်းလို့ ယုံတတ်တယ် 📱',
+      rx:'Share မနှိပ်ခင် ၃ စက္ကန့် စဉ်းစားပါ။ ဒီပို့စ်က အမှန်တရားလား၊ အမုန်းတရားလား?' },
+    { max:89, key:'t4', emoji:'🔥', en:'CERTIFIED RACIST', title:'Racist အစစ်',
+      desc:'ဂုဏ်ယူစရာ မဟုတ်ဘူးနော် 😬 အမုန်းစကားကနေ အကြမ်းဖက်မှု ဖြစ်လာတာကို မြန်မာပြည်မှာ ကိုယ်တိုင် မြင်ခဲ့ကြပြီးပြီ။ မင်းအမြင်တွေက လူတွေကို တကယ် နာကျင်စေနိုင်တယ်။',
+      rx:'မင်း မုန်းနေတဲ့ လူမျိုးက လူတစ်ယောက်နဲ့ Facebook ပေါ်မှာ မဟုတ်ဘဲ လက်တွေ့ စကားပြောကြည့်ပါ။' },
+    { max:100, key:'t5', emoji:'☠️', en:'FASCIST', title:'ဖက်ဆစ်',
+      desc:'ဂုဏ်ယူပါတယ်... မဟုတ်ဘူး၊ လုံးဝ ဂုဏ်မယူဘူး 🚨 မင်းအတွေးအခေါ်က သမိုင်းမှာ လူသန်းချီ သေကြေခဲ့ရတဲ့ အတွေးအခေါ်နဲ့ အတူတူပဲ။ ဒီ screenshot ကို ဂုဏ်ယူစွာ မတင်ပါနဲ့ 😅',
+      rx:'သမိုင်းစာအုပ် ဖွင့်ဖတ်ပြီး ဖက်ဆစ်တွေ ဘယ်လို အဆုံးသတ်ခဲ့လဲ ကြည့်ပါ 📚 ပြီးရင် quiz ကို ပြန်ဖြေပါ။' }
+  ];
+
+  var SEG = [[0,10,'#2ECC71'],[10,30,'#9BE15D'],[30,50,'#FFD23F'],[50,70,'#FF9F1C'],[70,90,'#F03A3A'],[90,100,'#8E0018']];
+  function segColor(p){ for (var i=0;i<SEG.length;i++){ if (p <= SEG[i][1]) return SEG[i][2]; } return SEG[SEG.length-1][2]; }
+
+  var LOAD = [
+    'မင်းရဲ့ Facebook share history ကို စစ်ဆေးနေတယ်... 🔍',
+    'လက်ဖက်ရည်ဆိုင် ဦးလေးတွေနဲ့ နှိုင်းယှဉ်နေတယ်... ☕',
+    'Racist-o-meter ကို စက်နှိုးနေတယ်... ⚙️',
+    'ရလဒ် ထွက်ပါပြီ! အသက်ပြင်းပြင်း ရှူထားပါ 😬'
+  ];
+
+  var name = '', idx = 0, answers = [], orders = [], busy = false, caption = '';
+
+  // ---------- background sky ----------
+  var EMO = ['🕊️','🤝','🌏','🍗','☕','🌈','🕌','⛪','🛕','💛','✌️','🍵','🎉','🫶','🧕','🙏','😂','🌸'];
+  var sky = $('sky');
+  EMO.forEach(function(e){
+    var s = document.createElement('span');
+    s.textContent = e;
+    s.style.left = (Math.random()*94) + '%';
+    s.style.setProperty('--s', (22 + Math.random()*30) + 'px');
+    s.style.setProperty('--d', (16 + Math.random()*16) + 's');
+    s.style.setProperty('--delay', (-Math.random()*30) + 's');
+    s.style.setProperty('--r', ((Math.random() > .5 ? 1 : -1) * (90 + Math.random()*270)) + 'deg');
+    if (reduce){ s.style.bottom = 'auto'; s.style.top = (Math.random()*92) + '%'; }
+    sky.appendChild(s);
+  });
+
+  // ---------- gauge ----------
+  function pt(p, r){ var a = Math.PI*(1 - p/100); return [120 + r*Math.cos(a), 120 - r*Math.sin(a)]; }
+  function arc(p1, p2, r){
+    var A = pt(p1, r), B = pt(p2, r);
+    return 'M' + A[0].toFixed(2) + ' ' + A[1].toFixed(2) + ' A' + r + ' ' + r + ' 0 0 1 ' + B[0].toFixed(2) + ' ' + B[1].toFixed(2);
+  }
+  (function buildGauge(){
+    var ns = 'http://www.w3.org/2000/svg', g = $('segs');
+    var track = document.createElementNS(ns, 'path');
+    track.setAttribute('d', arc(0, 100, 96));
+    track.setAttribute('fill', 'none'); track.setAttribute('stroke', '#141414');
+    track.setAttribute('stroke-width', '32'); track.setAttribute('stroke-linecap', 'round');
+    g.appendChild(track);
+    SEG.forEach(function(s){
+      var p = document.createElementNS(ns, 'path');
+      p.setAttribute('d', arc(s[0], s[1], 96));
+      p.setAttribute('fill', 'none'); p.setAttribute('stroke', s[2]); p.setAttribute('stroke-width', '24');
+      g.appendChild(p);
+    });
+  })();
+
+  // ---------- flow ----------
+  function show(id){
+    var list = document.querySelectorAll('.screen');
+    for (var i=0;i<list.length;i++){ list[i].classList.toggle('on', list[i].id === id); }
+    window.scrollTo(0, 0);
+  }
+  function shuffle(a){
+    a = a.slice();
+    for (var i=a.length-1;i>0;i--){ var j = Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; }
+    return a;
+  }
+
+  function start(){
+    name = $('name').value.trim();
+    idx = 0; busy = false;
+    answers = Q.map(function(){ return null; });
+    orders = Q.map(function(){ return shuffle([0,1,2,3]); });
+    document.body.removeAttribute('data-tier');
+    $('alertTape').hidden = true;
+    $('capBox').hidden = true;
+    renderQ(); show('quiz');
+  }
+
+  function renderQ(){
+    var q = Q[idx];
+    $('count').textContent = my(idx+1) + ' / ' + my(Q.length);
+    $('barFill').style.width = (idx / Q.length * 100) + '%';
+    $('art').textContent = q.art;
+    var c = $('cat'); c.textContent = CATS[q.cat]; c.setAttribute('data-cat', q.cat);
+    $('qtext').textContent = q.q;
+    var box = $('opts'); box.innerHTML = '';
+    orders[idx].forEach(function(oi, k){
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.id = 'opt-' + k;
+      b.className = 'opt' + (answers[idx] === oi ? ' picked' : '');
+      var l = document.createElement('span'); l.className = 'ltr'; l.textContent = LETTERS[k];
+      var t = document.createElement('span'); t.textContent = q.a[oi];
+      b.appendChild(l); b.appendChild(t);
+      b.addEventListener('click', function(){ pick(oi, b); });
+      box.appendChild(b);
+    });
+  }
+
+  function pick(oi, b){
+    if (busy) return;
+    busy = true;
+    answers[idx] = oi;
+    var all = document.querySelectorAll('.opt');
+    for (var i=0;i<all.length;i++) all[i].classList.remove('picked');
+    b.classList.add('picked');
+    setTimeout(function(){
+      busy = false;
+      if (idx < Q.length - 1){ idx++; renderQ(); }
+      else { finish(); }
+    }, reduce ? 150 : 380);
+  }
+
+  function compute(ans){
+    var total = 0;
+    ans.forEach(function(v){ total += v; });
+    var pct = Math.round(total / (Q.length*3) * 100);
+    var cats = {};
+    Object.keys(CATS).forEach(function(c){
+      var s = 0, n = 0;
+      Q.forEach(function(q, i){ if (q.cat === c){ s += ans[i]; n++; } });
+      cats[c] = Math.round(s / (n*3) * 100);
+    });
+    var tier = TIERS.filter(function(t){ return pct <= t.max; })[0];
+    return { pct:pct, cats:cats, tier:tier };
+  }
+
+  function finish(){
+    $('barFill').style.width = '100%';
+    show('loading');
+    var i = 0, step = reduce ? 350 : 700;
+    $('loadMsg').textContent = LOAD[0];
+    var timer = setInterval(function(){
+      i++;
+      if (i < LOAD.length){ $('loadMsg').textContent = LOAD[i]; }
+      else { clearInterval(timer); showResult(); }
+    }, step);
+  }
+
+  function animateGauge(pct){
+    var n = $('needle'), out = $('pct');
+    if (reduce){
+      n.setAttribute('transform', 'rotate(' + (-90 + pct*1.8) + ' 120 120)');
+      out.textContent = my(pct) + '%';
+      return;
+    }
+    var t0 = performance.now(), dur = 1400;
+    function frame(t){
+      var k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3), v = pct * e;
+      n.setAttribute('transform', 'rotate(' + (-90 + v*1.8).toFixed(2) + ' 120 120)');
+      out.textContent = my(Math.round(v)) + '%';
+      if (k < 1) requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  }
+
+  function confetti(){
+    if (reduce) return;
+    var c = document.createElement('canvas'); c.className = 'confetti'; document.body.appendChild(c);
+    var ctx = c.getContext('2d'), dpr = window.devicePixelRatio || 1;
+    c.width = innerWidth * dpr; c.height = innerHeight * dpr;
+    var cols = ['#FF5FA2','#12A898','#FFD84D','#2ECC71','#3C8DFF','#FF9F1C'];
+    var P = [];
+    for (var i=0;i<150;i++){
+      P.push({ x:Math.random()*c.width, y:-Math.random()*c.height*0.7, vx:(Math.random()-.5)*2*dpr, vy:(2+Math.random()*3)*dpr,
+               w:(6+Math.random()*6)*dpr, h:(8+Math.random()*8)*dpr, r:Math.random()*6, vr:(Math.random()-.5)*.3,
+               col:cols[Math.floor(Math.random()*cols.length)] });
+    }
+    var t0 = performance.now();
+    function f(t){
+      ctx.clearRect(0, 0, c.width, c.height);
+      P.forEach(function(p){
+        p.x += p.vx; p.y += p.vy; p.r += p.vr;
+        ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.r); ctx.fillStyle = p.col;
+        ctx.fillRect(-p.w/2, -p.h/2, p.w, p.h); ctx.restore();
+      });
+      if (t - t0 < 3800) requestAnimationFrame(f); else c.remove();
+    }
+    requestAnimationFrame(f);
+  }
+
+  function showResult(){
+    var r = compute(answers), tier = r.tier;
+    document.body.setAttribute('data-tier', tier.key);
+    $('who').textContent = (name ? name + ' ရဲ့' : 'မင်းရဲ့') + ' Racist ရမှတ်';
+    $('vEmoji').textContent = tier.emoji;
+    $('vEn').textContent = tier.en;
+    $('vTitle').textContent = tier.title;
+    $('vDesc').textContent = tier.desc;
+    $('vRx').textContent = tier.rx;
+    $('pct').textContent = my(0) + '%';
+    $('needle').setAttribute('transform', 'rotate(-90 120 120)');
+
+    var subs = $('subs'); subs.innerHTML = '';
+    var fills = [];
+    Object.keys(CATS).forEach(function(c){
+      var row = document.createElement('div'); row.className = 'sub';
+      var l = document.createElement('span'); l.textContent = CATS[c];
+      var st = document.createElement('span'); st.className = 'st';
+      var fi = document.createElement('i'); fi.style.background = segColor(r.cats[c]);
+      st.appendChild(fi);
+      var v = document.createElement('span'); v.className = 'sv'; v.textContent = my(r.cats[c]) + '%';
+      row.appendChild(l); row.appendChild(st); row.appendChild(v);
+      subs.appendChild(row);
+      fills.push([fi, r.cats[c]]);
+    });
+
+    $('alertTape').hidden = tier.key !== 't5';
+    show('result');
+    requestAnimationFrame(function(){ requestAnimationFrame(function(){
+      fills.forEach(function(f){ f[0].style.width = f[1] + '%'; });
+    }); });
+    animateGauge(r.pct);
+
+    caption = (name ? name : 'ငါ') + ' ရဲ့ Racist ရမှတ် ' + my(r.pct) + '% ' + tier.emoji + ' ' + tier.title +
+              ' 😳 မင်းရော ဘယ်လောက်လဲ? စမ်းကြည့်လိုက်! #RacistQuiz';
+
+    if (tier.key === 't0' || tier.key === 't1') confetti();
+    var card = $('card');
+    card.classList.remove('shake');
+    if (tier.key === 't4' || tier.key === 't5'){ void card.offsetWidth; card.classList.add('shake'); }
+  }
+
+  // ---------- events ----------
+  $('go').addEventListener('click', start);
+  $('name').addEventListener('keydown', function(e){ if (e.key === 'Enter'){ e.preventDefault(); start(); } });
+  $('back').addEventListener('click', function(){
+    if (busy) return;
+    if (idx === 0){ show('start'); } else { idx--; renderQ(); }
+  });
+  $('again').addEventListener('click', start);
+  $('copy').addEventListener('click', function(){
+    var b = $('copy'), box = $('capBox');
+    function reset(){ setTimeout(function(){ b.textContent = '📋 Caption ကူးမယ်'; }, 1800); }
+    try {
+      navigator.clipboard.writeText(caption).then(function(){
+        b.textContent = '✅ ကူးပြီးပြီ'; reset();
+      }, function(){
+        box.textContent = caption; box.hidden = false; b.textContent = '👇 အောက်က စာကို ကူးပါ'; reset();
+      });
+    } catch (err) {
+      box.textContent = caption; box.hidden = false; b.textContent = '👇 အောက်က စာကို ကူးပါ'; reset();
+    }
+  });
+})();
+</script>
+</body>
+</html>
